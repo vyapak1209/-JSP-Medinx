@@ -1,0 +1,44 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+input[type='text'],input[type='email'],input[type='password']{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+select{
+    width: 100%;
+    padding: 3px;
+    margin: 3px;
+}
+textarea{
+    width: 100%;
+    padding: 3px;
+    margin: 3px;
+}
+button{
+    width: 100%;
+    margin: 3px;
+}
+h3{
+    font-weight: 900;
+}
+ul{
+    list-style: none;
+}
+a{
+    padding-right: 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.active{
+    border-right: 3px solid black;
+}
+

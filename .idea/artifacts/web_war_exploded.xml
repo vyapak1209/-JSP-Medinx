@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Medinx/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Medinx" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-logging-1.1.1" />
+          <element id="library" level="project" name="httpclient-4.5.5" />
+          <element id="library" level="project" name="httpcore-4.4.9" />
+          <element id="library" level="project" name="commons-lang-2.6" />
+          <element id="library" level="project" name="json" />
+          <element id="library" level="project" name="json-simple-1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
